@@ -6,7 +6,7 @@
 
 :root{
   font-size: 62.5%;
-  --ff-01: 'Roboto Slab', serif;
+  --ff-01: 'Roboto', serif;
   --ff-02: 'Barlow Condensed', sans-serif;
   --ff-03: 'Space Grotesk', sans-serif;
 
@@ -697,7 +697,3 @@ footer{
     gap: 2rem;
   }
 }
-  
-
- 
-  
