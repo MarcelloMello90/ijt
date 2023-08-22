@@ -19,7 +19,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Roboto+Slab:wght@400;500;800&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="about.css">
     <script src="main.js"></script>
 
     <title>IJT - Quem somos</title>
@@ -29,6 +29,14 @@
       <div class="header">
         <img class="img-header" src="../../assets/logo/logo03peq.png" alt="logo ijt">
       
+        <div class="menu-mobile">
+          <button type="button" id="menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+  
+          </button>
 
         <nav id="nav-header" class="nav-header ">
           <a  href="/">Página Inicial</a>
@@ -90,106 +98,109 @@
         <h1> NOSSOS TIME</h1>
         <div id="wraper-mobile-main-box3" >
           <div id="wrap01-mobile">
-            <div id="box01">
-              <span>DIRETORIA</span>
-              <button>
-                <img src="/assets/card-page-about/main/flag.svg" alt="">
-              </button>
-            </div>
+            <details >
+              <summary>
+                <span class="summary-title">DIRETORIA</span>
+              </summary>
+                           
+              <div class="summary-content">
+                <div id="box02-mobile">
+                  <div id="content-box02-mobile">
+                    <img src="/assets/card-page-about/eudes.png" alt="foto eudes">
+                    <p> Eudes Júnior </p>
+                    <span> Diretor</span>
+                  </div>
   
-            <div id="box02-mobile">
-              <div id="content-box02-mobile">
-                <img src="/assets/card-page-about/eudes.png" alt="foto eudes">
-                <p> Eudes Júnior </p>
-                <span> Diretor</span>
+                  <div id="content-box02-mobile">
+                    <img src="/assets/card-page-about/arthur.png" alt="foto eudes">
+                    <p> Arthur Penaforte </p>
+                    <span> Diretor</span>
+                  </div>
+  
+                  <div id="content-box02-mobile">
+                    <img src="/assets/card-page-about/matheus.png" alt="foto eudes">
+                    <p> Matheus Pinheiro </p>
+                    <span> Diretor</span>
+                  </div>
+                </div>
               </div>
-
-              <div id="content-box02-mobile">
-                <img src="/assets/card-page-about/arthur.png" alt="foto eudes">
-                <p> Arthur Penaforte </p>
-                <span> Diretor</span>
-              </div>
-
-              <div id="content-box02-mobile">
-                <img src="/assets/card-page-about/matheus.png" alt="foto eudes">
-                <p> Matheus Pinheiro </p>
-                <span> Diretor</span>
-              </div>
-            </div>
+            </details>
           </div>
 
-          <!-- wrap02 -->
           <div id="wrap02-mobile">
-            <div id="box01">
-              <span>TIME TÉCNICO</span>
-              <button>
-                <img src="/assets/card-page-about/main/flag.svg" alt="">
-              </button>
-            </div>
-  
-            <div id="box02-mobile">
-              <div id="content-box02-mobile">
-                <img src="/assets/card-page-about/rebeca.png" alt="foto eudes">
-                <p> Rebeca Janaína </p>
-                <span> Assistente Social</span>
+            <details >
+              <summary>
+                <span class="summary-title2">
+                  TIME TÉCNICO
+                </span>
+              </summary>
+                           
+              <div class="summary-content">
+                <div id="box02-mobile">
+                  <div id="content-box02-mobile">
+                    <img src="/assets/card-page-about/rebeca.png" alt="foto eudes">
+                    <p> Rebeca Janaína </p>
+                    <span> Assistente Social</span>
+                  </div>
+    
+                  <div id="content-box02-mobile">
+                    <img src="/assets/card-page-about/lane.png" alt="foto eudes">
+                    <p> Tia Lane </p>
+                    <span> Pedagoga </span>
+                  </div>
+    
+                  <div id="content-box02-mobile">
+                    <img src="/assets/card-page-about/bene.png" alt="foto eudes">
+                    <p> Tia Bene </p>
+                    <span> Pedagoga </span>
+                  </div>
+    
+                  <div id="content-box02-mobile">
+                    <img src="/assets/card-page-about/henrique.png" alt="foto eudes">
+                    <p> Henrique Vieira </p>
+                    <span> Professor de Futsal</span>
+                  </div>
+    
+                  <div id="content-box02-mobile">
+                    <img src="/assets/card-page-about/elenilson.png" alt="foto eudes">
+                    <p> Elenilson Cunha </p>
+                    <span> Professor de Informática <span>
+                  </div>
+                </div>
               </div>
-
-              <div id="content-box02-mobile">
-                <img src="/assets/card-page-about/lane.png" alt="foto eudes">
-                <p> Tia Lane </p>
-                <span> Pedagoga </span>
-              </div>
-
-              <div id="content-box02-mobile">
-                <img src="/assets/card-page-about/bene.png" alt="foto eudes">
-                <p> Tia Bene </p>
-                <span> Pedagoga </span>
-              </div>
-
-              <div id="content-box02-mobile">
-                <img src="/assets/card-page-about/henrique.png" alt="foto eudes">
-                <p> Henrique Vieira </p>
-                <span> Professor de Futsal</span>
-              </div>
-
-              <div id="content-box02-mobile">
-                <img src="/assets/card-page-about/elenilson.png" alt="foto eudes">
-                <p> Elenilson Cunha </p>
-                <span> Professor de Informática <span>
-              </div>
-            </div>
+            </details>
           </div>
-            
-          <!-- wrap03 -->
+
           <div id="wrap03-mobile">
-            <div id="box01">
-              <span>VOLUNTÁRIOS</span>
-              <button>
-                <img src="/assets/card-page-about/main/flag.svg" alt="">
-              </button>
-            </div>
-  
-            <div id="box02-mobile">
-              <div id="content-box02-mobile">
-                <img src="/assets/card-page-about/patricia.png" alt="foto eudes">
-                <p> Patricia Monte </p>
-                <span> Assistente Social </span>
+            <details >
+              <summary>
+                <span class="summary-title3">VOLUNTÁRIOS</span>
+              </summary>
+                           
+              <div class="summary-content">
+                <div id="box02-mobile">
+                  <div id="content-box02-mobile">
+                    <img src="/assets/card-page-about/patricia.png" alt="foto eudes">
+                    <p> Patricia Monte </p>
+                    <span> Assistente Social </span>
+                  </div>
+    
+                  <div id="content-box02-mobile">
+                    <img src="/assets/card-page-about/may.png" alt="foto eudes">
+                    <p> Mayara Monte </p>
+                    <span> Analista de TransformaçãoDigital</span>
+                  </div>
+    
+                  <div id="content-box02-mobile">
+                    <img src="/assets/card-page-about/lane.png" alt="foto eudes">
+                    <p> Marcelo Melo </p>
+                    <span> Desenvolvedor Web</span>
+                  </div>
+                </div>
               </div>
-
-              <div id="content-box02-mobile">
-                <img src="/assets/card-page-about/may.png" alt="foto eudes">
-                <p> Mayara Monte </p>
-                <span> Analista de TransformaçãoDigital</span>
-              </div>
-
-              <div id="content-box02-mobile">
-                <img src="/assets/card-page-about/lane.png" alt="foto eudes">
-                <p> Marcelo Melo </p>
-                <span> Desenvolvedor Web</span>
-              </div>
-            </div>
-            </div>
+            </details>
           </div>
+        </div>
 
         <div id="wraper-main-box3">
           <div id="content-box01">

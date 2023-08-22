@@ -15,7 +15,7 @@ const footerBox02 = document.getElementById("footer-box02");
 
 // Função para verificar e ajustar a visibilidade com base na largura
 function addHide() {
-  if (window.innerWidth >= 900) {
+  if (window.innerWidth >= 700) {
     // navHeader.classList.remove("hide");
     // menuHeader.classList.add("hide");
 
