@@ -230,7 +230,6 @@ section{
 #main{
   width: 1000px;
   height: 200px;
-
   margin-bottom: 100px   ;
 }
 
@@ -265,10 +264,10 @@ footer{
 
 
   width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer{
